@@ -5,7 +5,6 @@ class Person
 
       def iniitalize(attributes)
         attributes.each {|key, value| self.send(("#{key}="), value)}
-      end
 
       susan_attributes = {name: "Susan", height: "5'11\"", eye_color: "Green"}
 
@@ -13,4 +12,5 @@ class Person
       susan.name
       susan.height
       susan.eye_color
-  end
+    end
+end
